@@ -5,7 +5,7 @@ docker container run --rm \
 -e backupfile=abc-data.gz.enc \
 -v /data/openldap/backup:/data/backup \
 -v /directory-of-private-key/ldapbackup-secure.priv.pem:/ldapbackup-secure.priv.pem:ro \
-konrad54/openssl-decrypt-file:latest
+konrad54/openssl-decrypt-file:1.0.0
 ```
 
 ## How to build image
